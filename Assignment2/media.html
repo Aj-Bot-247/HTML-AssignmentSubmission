@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More About Me</title>
+    <style>
+      a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  font-size: large;
+  font-weight: 700;
+  margin: 10px;
+  &:hover{
+     color: rgb(255, 0, 0);
+     text-decoration: underline;
+    }
+}
+#home, #form, #index{
+    margin: 20px;
+    list-style: none;}
+
+    </style>
+  </head>
+  <body>
+
+    <nav>
+      <ul id="top" role="list">
+        <li id="home"><a href="./media.html">Media Responsivity</a></li>
+        <li id="form">
+          <a href="./table.html">Table of Courses</a>
+        </li>
+        <li id="index">
+          <a href="../index.html">Back to Index</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="Heading">
+      <h1>About Me:</h1>
+      
+      <h2>My Name is Ajibola Anjorin, and I am a student of Altschool's Cloud Engiinering track</h2>
+    
+  
+  </section>
+
+
+
+  
+      <section id="Picture-Element">
+        <picture>
+          
+          <source srcset="./Assets/IMAGE/me.png" media="(min-width: 900px)" height="500px" width="500px" />
+          <source srcset="./Assets/IMAGE/me.png" media="(min-width: 600px)" height="400px" width="400px"/>
+          <source srcset="./Assets/IMAGE/me.png" media="(min-width: 300px)" height="300px" width="300px"/>
+             
+            
+            <img
+              src="./Assets/IMAGE/me.png"
+              alt=" My Images" height="500px" width="500px"
+            />
+          </picture>
+          
+          
+      </section>
+
+          
+     
+
+
+      <section id="Audio-Element">
+      <h2>
+        Success is the sum of small efforts repeated day in and day out, fueled by determination,  <br>
+         shaped by persistence, and guided by the willingness to learn and adapt through every challenge.
+      </h2>
+    
+    
+
+
+  <h1>J. Cole - MIDDLE CHILD </h1>
+      <audio controls>
+  
+          <source src="./Assets/AUDIO/J. Cole - MIDDLE CHILD (Official Audio).mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+      
+</section>
+
+
+
+
+   
+
+
+
+      <section id="Video-Element">
+        <h1>The biggest risk to your future isn’t your competition, it’s the distractions you insist on keeping in <br>
+          your life rather than doing the things you know you should be doing but aren’t.</h1>
+          <br><br>
+        <video controls autoplay loop muted preload="auto" crossorigin="anonymous" width="400px" height="400px">
+            <source src="./Assets/VIDEO/The biggest risk to your future isn’t your competition, it’s the distractions you insist on keeping in your life rather than doing the things you know you should be doing but aren’t..mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+      </section>
+
+
+     
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

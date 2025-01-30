@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Schools And Courses</title>
+    
+    <style>
+        /**TABLE STYLING**/
+#SC-Table{
+    border-collapse: collapse;
+    margin: 150px;
+   
+}
+tr th,td {
+ padding: 30px;
+ font-size: 20px;
+ 
+}
+#caption{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+      a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  font-size: large;
+  font-weight: 700;
+  margin: 10px;
+  &:hover{
+     color: rgb(255, 0, 0);
+     text-decoration: underline;
+    }
+}
+#home, #form, #index{
+    margin: 20px;
+    list-style: none;}
+    
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul id="top" role="list">
+          <li id="home"><a href="./media.html">Media & Responsiveness</a></li>
+          <li id="form">
+            <a href="./table.html">Table of Courses</a>
+          </li>
+          <li id="index">
+            <a href="../index.html">Back to Index</a>
+          </li>
+        </ul>
+      </nav>
+
+    <section>
+        <table id="SC-Table" border>
+            <caption id="caption">
+                Altschool Schools And Courses
+            </caption>
+            <thead>
+                <tr>
+                    <th>Schools</th>
+                    <th colspan="4">Courses</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr >
+                    <th>School Of Engineering</th>
+                    <td>Frontend Engineering</td>
+                    <td>Backend Engineering</td>
+                    <td>Cloud Engiinering</td>
+                    <td>Cybersecurity</td>
+                </tr>
+                <tr  class="row-style">
+                    <th>School Of Product</th>
+                    <td>Product Design</td>
+                    <td>Marketing</td>
+                    <td>Management</td>
+                    <td></td>
+                </tr>
+                <tr  class="row-style" >
+                    <th>School Of Data</th>
+                    <td>Data Analysis</td>
+                    <td>Data Science</td>
+                    <td>Data Engineering</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table> 
+    </section>
+</body>
+</html>
